@@ -28,7 +28,7 @@ section#login{
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
 
@@ -54,6 +54,60 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #F2DFD8;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+/* remove da tela o texto senha e login */
+div.campo > label{
+    display: none;
+}
+
+
+/* configuraçoes do botao entrar*/
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#D98F4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color:#734022 ;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #A65C32;
+    color:white ;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color:#734022  ;
+}
+
+form > a.botao > span{
     font-size: 0.8em;
 }
 
